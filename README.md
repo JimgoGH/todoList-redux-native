@@ -1,7 +1,7 @@
 todoList-redux-native
 =====================
 
-I had learned and practiced [todos](https://github.com/reactjs/redux/tree/master/examples/todos) example from redux project,and try to translate into react-native version.
+I had learned and practiced [todos](https://github.com/reactjs/redux/tree/master/examples/todos) example from redux project,and try to translate into react-native version.<br>
 Below are Chinese interpretation.
 
 # 中文说明
