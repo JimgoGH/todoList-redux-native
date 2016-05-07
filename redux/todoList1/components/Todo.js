@@ -1,4 +1,5 @@
-import React, { Component, PropTypes,Text } from 'react-native'
+import React, { Component, PropTypes} from 'react';
+import { Text } from 'react-native';
 
 export default class Todo extends Component {
   render() {

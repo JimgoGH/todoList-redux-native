@@ -10,6 +10,8 @@ export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER'
  * 其它的常量
  */
 
+let nextTodoId = 0;
+
 export const VisibilityFilters = {
   SHOW_ALL: 'SHOW_ALL',
   SHOW_COMPLETED: 'SHOW_COMPLETED',
@@ -21,7 +23,7 @@ export const VisibilityFilters = {
  */
 
 export function addTodo(text) {
-  return { type: ADD_TODO, text }
+  return { type: ADD_TODO,id:nextTodoId++, text }
 }
 
 export function completeTodo(index) {
