@@ -11,6 +11,5 @@ Below are Chinese interpretation.
 目前只有 Android 的native版。
 
 * 2016-03-14： 样式还没调整，凑活用着。TextInput还没做提交后清空内容。
-
-
+* 2016-05-07： 升级了一下react-native版本。TextInput问题主要是加个value={this.state.todoText.} 属性。
 
